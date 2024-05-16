@@ -30,7 +30,7 @@ The data dictionary is available in the [release note](https://cycling.data.tfl.
 
 ## Reproducing this repo
 
-![alt text](images/Flow.png)
+![alt text](images/flow1.png)
 
 * Prepare GCP service accounts with appropriate permissions for GCS and BQ
 * Set up a VM on Google Cloud with docker, docker-compose, and git.
