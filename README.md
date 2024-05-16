@@ -20,7 +20,7 @@ This project will create an ETL pipeline to extract cycling infrastructure data 
 The data set for this project is from [https://cycling.data.tfl.gov.uk/](https://cycling.data.tfl.gov.uk/)
 The data dictionary is available in the [release note](https://cycling.data.tfl.gov.uk/ActiveTravelCountsProgramme/0%20Strategic%20active%20travel%20counts%20-%20release%20note.pdf)
 
-## Technologies:
+## Technologies
 * Cloud: GCP
 * Infrastructure as code (IaC): Terraform
 * Workflow orchestration: Mage
@@ -28,7 +28,7 @@ The data dictionary is available in the [release note](https://cycling.data.tfl.
 * Transformation: dbt, spark
 * Dashboard: Tableau
 
-## To reproduce this repo
+## Reproduce this repo
 
 * Prepare GCP service accounts with appropriate permissions for GCS and BQ
 * Set up a VM on Google Cloud with docker, docker-compose, and git.
@@ -42,7 +42,7 @@ The data dictionary is available in the [release note](https://cycling.data.tfl.
 * Grant dbt cloud the appropriate permissions for GCP, connect it to your DWH and run prod job
 
 ![alt text](images/Lineage.PNG)
-	
+
 ## Dashboard
 ![alt text](images/Dashboard_1.png)
 
