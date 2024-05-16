@@ -1,4 +1,7 @@
 import pandas as pd
+# import pyspark
+# from pyspark.sql import SparkSession
+# from pyspark.sql.functions import year, month
 
 if 'transformer' not in globals():
     from mage_ai.data_preparation.decorators import transformer
@@ -8,7 +11,20 @@ if 'test' not in globals():
 
 @transformer
 def transform(data, *args, **kwargs):
+    # # Initialize Spark session
+    # spark = SparkSession.builder \
+    #     .appName("Test") \
+    #     .getOrCreate()
     
+    # # data to Spark dataframe
+    # df = spark_session.createDataFrame(data)
+
+    # df = df \
+    #     .withColumn("year", year("Date")) \
+    #     .withColumn("month", month("Date")) \
+    #     .withColumn("quarter", quarter("Date")) \
+    #     .withColumnRenamed("Year", "Period")
+
     df = data
 
     # Rename the column
