@@ -28,9 +28,7 @@ The data dictionary is available in the [release note](https://cycling.data.tfl.
 * Transformation: dbt, spark
 * Dashboard: Tableau
 
-## Workflow
-	
-	Project architecture
+## To reproduce this repo
 
 * Prepare GCP service accounts with appropriate permissions for GCS and BQ
 * Set up a VM on Google Cloud with docker, docker-compose, and git.
@@ -43,7 +41,7 @@ The data dictionary is available in the [release note](https://cycling.data.tfl.
   * Forward port 6789 and connect to it on your local machine
 * Grant dbt cloud the appropriate permissions for GCP, connect it to your DWH and run prod job
 
-
+![alt text](images/Lineage.PNG)
 	
 ## Dashboard
 ![alt text](images/Dashboard_1.png)
