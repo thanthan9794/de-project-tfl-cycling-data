@@ -42,9 +42,10 @@ The data dictionary is available in the [release note](https://cycling.data.tfl.
 * Build image using docker-compose build in /mage/, and run mage using docker-compose up
   * Forward port 6789 and connect to it on your local machine
 * Grant dbt cloud the appropriate permissions for GCP, connect it to your DWH and run prod job
-		
-	![alt text](assets/image_file.extension)
+
+
 	
 ## Dashboard
+![alt text](images/Dashboard_1.png)
 
 
