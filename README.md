@@ -13,7 +13,7 @@ The project includes the following:
 * creation of a BI dashboard
 
 
-## Problem Statement
+## Problem description
 	
 This project will create an ETL pipeline to extract cycling infrastructure data from Transport for London's (TfL) open data portal. By loading this data into a cloud database, we can facilitate the creation of user-friendly applications and insightful analyses. This analysis could include identifying areas lacking proper cycling infrastructure, assessing the effectiveness of existing facilities, and informing future cycling network development efforts.
 
@@ -28,7 +28,7 @@ The data dictionary is available in the [release note](https://cycling.data.tfl.
 * Transformation: dbt, spark
 * Dashboard: Tableau
 
-## Reproduce this repo
+## Reproducing this repo
 
 * Prepare GCP service accounts with appropriate permissions for GCS and BQ
 * Set up a VM on Google Cloud with docker, docker-compose, and git.
