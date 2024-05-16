@@ -1,0 +1,9 @@
+sources:
+  - name: staging
+    database: de-final-project-crm-sales
+    schema: cycling_data
+
+    tables:
+      - name: active_travel_counts_2022_2023
+      - name: dev_load_data_to_gcs_transform_data_v1
+      - name: locations
